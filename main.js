@@ -40,10 +40,6 @@ $(document).on('ready', function(){
 	}
 
 	function addCharactersToHtml(characters){
-		// characters.each do | character |
-		// 		puts character
-		// end
-
 		characters.forEach(function(character){
 			console.log(character);
 			addSingleCharacterToHtml(character)
